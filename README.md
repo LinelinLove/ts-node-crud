@@ -42,14 +42,14 @@ http://DB_HOST:DB_PORT/things/:id
 
 http://DB_HOST:DB_PORT/things
 
-{"name" : "ce que vous souhaitez"}
+`{"name" : "ce que vous souhaitez"}`
 
-# PUT
+## PUT
 
 http://DB_HOST:DB_PORT/things/:id
 
-{"name" : "ce que vous souhaitez"}
+`{"name" : "ce que vous souhaitez"}`
 
-# DELETE
+## DELETE
 
 http://DB_HOST:DB_PORT/things/:id
