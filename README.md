@@ -9,6 +9,7 @@
 Image docker : `mysql:latest`
 
 Lancer le conteneur MYSQL sur le terminal ou sur Docker Desktop
+
 `docker exec -it mysql-docker mysql -u DB_USER -p`
 
 ### Variables d'environnements
@@ -20,6 +21,10 @@ Renommer `env.sample` en `.env` et remplir avec votre configuration
 `npm i`
 
 `npm run dev`
+
+### ESLINT
+
+`npx eslint ./src/path/nomdufichier.ts --fix`
 
 ## GET
 
@@ -40,6 +45,10 @@ http://DB_HOST:DB_PORT/things
 {"name" : "ce que vous souhaitez"}
 
 # PUT
+
+http://DB_HOST:DB_PORT/things/:id
+
+{"name" : "ce que vous souhaitez"}
 
 # DELETE
 
